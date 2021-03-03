@@ -1,10 +1,10 @@
 === WooCommerce Arabic Currencies ===
 Contributors: sa3idho
 Tags: woocommerce,rtl, woo, currencies, ecommerce, arabic currencies, Dirham, Pound, Dinars, Dinar, Riyal, Ouguiya, shilling, Djibouti, Franc, Saudi Riyal
-Requires at least: 5.3
-Tested up to: 5.5.1
+Requires at least: 5.4
+Tested up to: 5.6
 Requires PHP: 7.0
-Stable tag: 1.2.8
+Stable tag: 1.4.0
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -63,7 +63,8 @@ This plugin provides all arabic currencies for woocommerce, you can use and cont
 4. Go to woocommerce currencies settings and enjoy :)
 
 == Screenshots ==
-1. the list of Arab currencies in WooCommerce settings.
+1. The list of arabic currencies in WooCommerce settings (Arabic WordPress site).
+2. The list of arabic currencies in WooCommerce settings (English WordPress site).
 
 == Changelog ==
 = 1.0.0 =
@@ -87,5 +88,12 @@ This plugin provides all arabic currencies for woocommerce, you can use and cont
 * Tested up to WordPress 5.3 & WooCommerce 3.9
 = 1.2.7 =
 * Tested up in WordPress 5.5 and WooCommerce 4.3
-= 1.2.8 =
+= 1.2.8 - 2020-10-20 =
 * Tested up in WordPress 5.5.1 and WooCommerce 4.6
+* Add new Screenshot
+* Rename translation folder to "locales"
+* Create link to settings page from plugins screen
+= 1.2.9 - 2020-12-09 =
+* Tested up in WordPress 5.6 and WooCommerce 4.8.0
+= 1.3.0 - 2020-12-23 =
+* Add review stars to the plugin links.

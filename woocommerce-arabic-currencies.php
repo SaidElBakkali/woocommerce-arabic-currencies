@@ -10,12 +10,12 @@
  * @wordpress-plugin
  * Plugin URI:          https://github.com/SaidElBakkali/woocommerce-arabic-currencies
  * Description:         This plugin adds custom arabic currenciesfor WooCommerce.
- * Version:             1.2.8
+ * Version:             1.4.0
  * Author:              Said El Bakkali
  * Author URI:          https://saidelbakkali.com/
  * Text Domain:         woocommerce-arabic-currencies
  * Domain Path:        /locales/
- * Requires at least:  5.3
+ * Requires at least:  5.4
  * Requires PHP:       7.0
  *
  * @package woocommerce_arabic_currencies
@@ -171,16 +171,19 @@ if ( is_plugin_active( 'woocommerce/woocommerce.php' ) ) {
 
 	}
 
-	// Create liink to settings page from plugins screen.
+	// Create link to settings page from plugins screen.
 	add_filter(
 		'plugin_action_links_' . plugin_basename( __FILE__ ),
 		function ( $links ) {
+
+			$style   = '<style>.woocommerce-arabic-currencies-star-rating {display: inline-block;color: #ffb900;position: relative;top: 3px;}.woocommerce-arabic-currencies-star-rating svg, .woocommerce-arabic-currencies-star-rating svg:hover {fill: #ffb900;}.woocommerce-arabic-currencies-star-rating svg:hover~svg{fill:none}</style>';
 			$mylinks = array(
 				sprintf(
 					'<a href="%s">%s</a>',
 					admin_url( 'admin.php?page=wc-settings#pricing_options-description' ),
 					esc_html__( 'Settings', 'woocommerce-arabic-currencies' )
 				),
+				sprintf( '%2$s<a href="https://wordpress.org/support/plugin/woocommerce-arabic-currencies/reviews/?rate=5#new-post" target="_blank" title="Rate">%1$s</a>', '<span class="woocommerce-arabic-currencies-star-rating"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-star"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-star"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-star"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-star"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-star"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg></span>', $style ),
 			);
 			return array_merge( $links, $mylinks );
 		}
