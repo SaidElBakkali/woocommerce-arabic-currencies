@@ -2,9 +2,9 @@
 Contributors: sa3idho
 Tags: woocommerce,rtl, woo, currencies, ecommerce, arabic currencies, Dirham, Pound, Dinars, Dinar, Riyal, Ouguiya, shilling, Djibouti, Franc, Saudi Riyal
 Requires at least: 5.4
-Tested up to: 5.6
+Tested up to: 5.7
 Requires PHP: 7.0
-Stable tag: 1.4.0
+Stable tag: 1.4.1
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
