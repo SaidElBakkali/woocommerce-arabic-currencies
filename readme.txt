@@ -67,33 +67,9 @@ This plugin provides all arabic currencies for woocommerce, you can use and cont
 2. The list of arabic currencies in WooCommerce settings (English WordPress site).
 
 == Changelog ==
-= 1.0.0 =
-* First released version.
-= 1.1.0 =
-* Update Arabic translation & the Screenshot.
-* Tested up to WordPress 4.5.1
-= 1.2.0 =
-* Tested up to WordPress 4.6.1
-= 1.2.1 =
-* Tested up to WordPress 4.7
-= 1.2.2 =
-* Tested up to Woocommerce 3
-= 1.2.3 =
-* Tested up to WordPress 4.8.3
-= 1.2.4 =
-* Tested up to WordPress 4.9
-= 1.2.5 =
-* Tested up to WordPress 5.2
-= 1.2.6 =
-* Tested up to WordPress 5.3 & WooCommerce 3.9
-= 1.2.7 =
-* Tested up in WordPress 5.5 and WooCommerce 4.3
-= 1.2.8 - 2020-10-20 =
-* Tested up in WordPress 5.5.1 and WooCommerce 4.6
-* Add new Screenshot
-* Rename translation folder to "locales"
-* Create link to settings page from plugins screen
-= 1.2.9 - 2020-12-09 =
-* Tested up in WordPress 5.6 and WooCommerce 4.8.0
 = 1.3.0 - 2020-12-23 =
 * Add review stars to the plugin links.
+= 1.4.0 - 2021-03-03 =
+* Tested up to wp 5.6.2 & WooCommerce 5.0.0
+= 1.4.1 - 2021-12-23 =
+* Tested up to wp 5.7 & WooCommerce 5.1
