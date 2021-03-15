@@ -10,7 +10,7 @@
  * @wordpress-plugin
  * Plugin URI:          https://github.com/SaidElBakkali/woocommerce-arabic-currencies
  * Description:         This plugin adds custom arabic currenciesfor WooCommerce.
- * Version:             1.4.0
+ * Version:             1.4.1
  * Author:              Said El Bakkali
  * Author URI:          https://saidelbakkali.com/
  * Text Domain:         woocommerce-arabic-currencies
